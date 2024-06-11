@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:src="@drawable/help"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="serif"
+            android:text="Here's a little help for you"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/border"
+        >
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Say Open OCR  for text recognizer."
+            android:layout_margin="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:textStyle="normal"
+
+            android:fontFamily="serif"
+            />
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Say Read Document to listen recognized text."
+            android:layout_margin="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:fontFamily="serif"
+            />
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Say Detect Object for object detection. "
+            android:layout_margin="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:fontFamily="serif"
+            />
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.Press low volume button to skip or move to dashboard "
+            android:layout_margin="20dp"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:fontFamily="serif"
+            />
+    </LinearLayout>
+</LinearLayout>

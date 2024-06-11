@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="20dp"
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/txtname"
+                android:text="object name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/holo_purple"
+                android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <Button
+                android:id="@+id/btgoogle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get info"
+                android:layout_weight="0.5"
+            />
+            <Button
+                android:id="@+id/bt3d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search 3D"
+                android:layout_weight="0.5"
+
+                />
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
